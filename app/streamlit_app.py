@@ -74,7 +74,7 @@ if (success == True) & (responses[2] is None):
 if (success == True) & (responses[3] is None):
     st.divider()
     st.image(q3_image)
-    responses[3] = st.number_input(label='You cant cheat maths... How many squares are there on a scrabble board, plus 2?', min_value=0, max_value=1000)
+    responses[3] = st.number_input(label='You cant cheat maths... How many squares are there on a Scrabble board, plus 2?', min_value=0, max_value=1000)
 
     for i in range(3):
         if responses[keys[i]] != answers[keys[i]]:
@@ -118,7 +118,7 @@ if (success == True) & (responses[6] is None):
 
 if (success == True) & (responses[7] is None):
     st.divider()
-    responses[7] = st.number_input('The Scrabble score you''d get if REBUSSED was a real word', min_value=0, max_value=1000)
+    responses[7] = st.number_input('The Scrabble score you\'d get if REBUSSED was a real word', min_value=0, max_value=1000)
     st.markdown('P.S. The B is on a triple and theres no doubling of this word')
 
     for i in range(7):
@@ -131,7 +131,7 @@ if (success == True) & (responses[8] is None):
     st.divider()
     st.image(q8_image)
 
-    responses[8] = st.text_input('What is the Enerprise''s registration number?').upper()
+    responses[8] = st.text_input('What is the Enerprise\'s registration number?').upper()
 
     for i in range(8):
         if responses[keys[i]] != answers[keys[i]]:
@@ -235,4 +235,4 @@ if (success == True) & (responses[11] is not None):
 
     if lat ==  51.511972 and long == -0.232000:
         st.balloons()
-        st.title('Congratulations you''re going to the Crystal Maze Live experience!! See you in the dome!')
+        st.title('Congratulations you\'re going to the Crystal Maze Live experience!! See you in the dome!')
