@@ -226,10 +226,8 @@ if (success == True) & (responses[11] is not None):
     left, right = st.columns(2)
     with left:
         st.markdown(f'Latitude: {lat}')
-        st.markdown('51.511972')
     with right:
         st.markdown(f'Londitude: {long}')
-        st.markdown('-0.232000')
 
     location = pd.DataFrame([[lat, long]], columns=['lat', 'lon'])
 
