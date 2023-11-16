@@ -50,7 +50,7 @@ success = True
 
 ### Question 1
 
-responses[1] = st.radio(label='Are you ready to start?', options=['Yes', 'No', 'It can''t be that simple'], index=None)
+responses[1] = st.radio(label='Are you ready to start?', options=['Yes', 'No', 'It can\'t be that simple'], index=None)
 
 for i in range(1):
     success = True
