@@ -144,7 +144,7 @@ if (success == True) & (responses[8] is None):
     st.divider()
     st.image(q8_image)
 
-    responses[8] = st.text_input('What is the Enerprise\'s registration number?').upper()
+    responses[8] = st.text_input('What is the Enterprise\'s registration number?').upper()
 
     for i in range(8):
         if responses[keys[i]] != answers[keys[i]]:
