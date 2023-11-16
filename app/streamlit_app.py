@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-opening_image = Image.open('Opener.png')
+opening_image = Image.open('app/Opener.png')
 q2_image = Image.open('q2Image.jpg')
 q3_image = Image.open('q3Image.gif')
 q4_image = Image.open('q4Image.jpg')
