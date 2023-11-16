@@ -206,12 +206,12 @@ if (success == True) & (responses[11] is not None):
         lat_2 = st.number_input("Joey had 6 siblings. All of them were born 2 years apart. The youngest is Chloe who is only 7 years old while Joey is the eldest. Calculate Joey’s age", value=0, min_value=-100, max_value=100)
         #19
     with right:
-        long_2 = st.number_input("Rice 60 ounces was divided equally and placed in 4 containers. How many pounds of rice were in each?", value=0.0, min_value=-100.0, max_value=100.0,step=1e-4, format="%.4f")
+        long_2 = st.number_input("60 ounces of rice was divided equally and placed in 4 containers. How many pounds of rice were in each?", value=0.0, min_value=-100.0, max_value=100.0,step=1e-4, format="%.4f")
         #15/16
 
     left, right = st.columns(2)
     with left:
-        lat_3 = st.number_input("Solve: 3 + 2 • (8 – 3)", value=0, min_value=-100, max_value=100)
+        lat_3 = st.number_input("Solve: 3 + 2 x (8 – 3)", value=0, min_value=-100, max_value=100)
         #13
     with right:
         long_3 = st.number_input("If 1 = 5; 2 = 25; 3 = 325 and 4 = 4325; then 5 =?", value=0, min_value=-100, max_value=100)
