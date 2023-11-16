@@ -179,7 +179,7 @@ if (success == True) & (responses[10] is None):
 if (success == True) & (responses[11] is None):
     st.divider()
     st.image(q11_image)
-    answer = st.text_input('Question?: ')
+    answer = st.text_input('How do you open this piece of parchment?')
     responses[11] = answer.upper()
 
     for i in range(11):
