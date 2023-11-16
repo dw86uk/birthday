@@ -17,6 +17,13 @@ q9_image = Image.open('app/q9Image.jpg')
 q10_image = Image.open('app/q10Image.webp')
 q11_image = Image.open('app/q11Image.jpg')
 
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 st.header('There is a birthday...')
 st.image(opening_image)
 st.divider()
