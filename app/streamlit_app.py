@@ -155,7 +155,7 @@ if (success == True) & (responses[8] is None):
 if (success == True) & (responses[9] is None):
     st.divider()
     st.image(q9_image)
-    answer = st.text_input('Which of the seven dwafes is last alphabetically?')
+    answer = st.text_input('Which of the seven dwarfs is last alphabetically?')
     responses[9] = answer.upper()
 
     for i in range(9):
