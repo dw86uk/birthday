@@ -198,7 +198,7 @@ if (success == True) & (responses[11] is not None):
         lat_1 = st.number_input("If one = 3, two = 3, three = 5, four = 4, five = 4, then six = ?", value=0, min_value=-100, max_value=100)
         #3
     with right:
-        long_1 = st.number_input("Solve the following equation: 9 – 3 ÷ 1/3+ 1 =?", value=0, min_value=-100, max_value=100)
+        long_1 = st.number_input("Solve the following equation: 9 – 3 ÷ 1/3 + 1 =?", value=0, min_value=-100, max_value=100)
         #1
     
     left, right = st.columns(2)
@@ -207,7 +207,7 @@ if (success == True) & (responses[11] is not None):
         #19
     with right:
         long_2 = st.number_input("60 ounces of rice was divided equally and placed in 4 containers. How many pounds of rice were in each?", value=0.0, min_value=-100.0, max_value=100.0,step=1e-4, format="%.4f")
-        #15/16
+        #0.9375
 
     left, right = st.columns(2)
     with left:
