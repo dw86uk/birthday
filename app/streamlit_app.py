@@ -233,8 +233,8 @@ if (success == True) & (responses[11] is not None):
         long_5 = st.number_input("Determine the solution to (1 - x) x 2 = 1.339", value=0.0, min_value=-100.0, max_value=100.0,step=1e-4, format="%.4f")
         #0.3305
     
-    lat = round(lat_1 + lat_2 + lat_3 + lat_4 + lat_5, 6)
-    long = round(long_1 + long_2 + long_3 + long_4 + long_5, 6)
+    lat = round(lat_1 + lat_2 + lat_3 + lat_4 + lat_5 + 0.114735, 6)
+    long = round(long_1 + long_2 + long_3 + long_4 + long_5 + 0.0782392, 6)
 
     left, right = st.columns(2)
     with left:
