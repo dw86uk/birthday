@@ -230,8 +230,8 @@ if (success == True) & (responses[11] is not None):
         lat_5 = st.number_input("(1/x)*15 = 1.576960067, what is x (to 6 d.p.)", value=0.0, min_value=-100.0, max_value=100.0,step=1e-6, format="%.6f")
         #9.511972
     with right:
-        long_5 = st.number_input("Determine the solution to (1 - x) x 2 = 1.339", value=0.0, min_value=-100.0, max_value=100.0,step=1e-4, format="%.4f")
-        #0.3305
+        long_5 = st.number_input("Determine the solution to (1 - x) x 2 = 1.139", value=0.0, min_value=-100.0, max_value=100.0,step=1e-4, format="%.4f")
+        #0.4305
     
     lat = round(lat_1 + lat_2 + lat_3 + lat_4 + lat_5, 6)
     long = round(long_1 + long_2 + long_3 + long_4 + long_5, 6)
@@ -246,6 +246,6 @@ if (success == True) & (responses[11] is not None):
 
     st.map(location)
 
-    if lat ==  51.511972 and long == -0.232000:
+    if lat ==  51.511972 and long == -0.132000:
         st.balloons()
         st.title('Congratulations you\'re going to the Crystal Maze Live experience!! See you in the dome!')
